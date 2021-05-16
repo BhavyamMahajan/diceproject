@@ -1,3 +1,35 @@
 body {
     background-color:rgba(252, 63, 67, 0.9);
 }
+
+h1{
+    text-align: center;
+    color:silver;
+    font-family: "Courier New",monospace;
+}
+
+#div1{
+    margin-top: 8%;
+}
+
+#div3{
+    margin-top: 120%; /* 120% */
+}
+
+button{
+    font-size: 250%;
+    width:40%;
+    margin-left: 30%;
+    border: 1px solid black;
+    background-color: grey;
+    transition:0.2s ;
+
+}
+button:hover{
+    background-color: darkgrey;
+}
+
+button:active{
+
+    transform: translateY(4px);
+}
