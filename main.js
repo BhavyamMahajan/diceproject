@@ -1,14 +1,12 @@
 function diceroll()
 {
     var x = (Math.ceil(Math.random()*6));
-    var y = document.getElementById("result");
-    var show;
+    var showBox = document.querySelector('#div2');
     x = parseInt(x);
-    if(x==1)
-    {
-        document.getElementById("div2").src="images/1.jpg";
-    }
-    else
-    { y.innerHTML=x; }
+
+    showBox.innerHTML = '<img src=images/'+x+'.jpg />'
+
+    // src = 1.jpg
+    
 
 }
