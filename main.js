@@ -5,8 +5,4 @@ function diceroll()
     x = parseInt(x);
 
     showBox.innerHTML = '<img src=images/'+x+'.jpg />'
-
-    // src = 1.jpg
-    
-
 }
