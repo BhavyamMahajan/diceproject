@@ -6,6 +6,6 @@ function diceroll()
     var dice2 = document.querySelector('#dice2');
     var audio = document.getElementById("audio");
     audio.play();
-    dice1.innerHTML = '<img src=images/'+x+'.jpg />'
-    dice2.innerHTML = '<img src=images/'+y+'.jpg />'
+    dice1.innerHTML = '<img src=images/'+x+'.png />'
+    dice2.innerHTML = '<img src=images/'+y+'.png />'
 }
